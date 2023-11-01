@@ -1,11 +1,9 @@
-import ResultSection from './components/ResultSection';
-import SummarySection from './components/SummarySection';
+import ResultsSummary from './components/ResultsSummary';
 
 function App() {
   return (
-    <div className="w-[375px]">
-      <ResultSection />
-      <SummarySection />
+    <div className="flex h-screen items-center justify-center bg-gray-800">
+      <ResultsSummary />
     </div>
   );
 }
