@@ -64,7 +64,10 @@ function SummarySection() {
           </p>
         </li>
       </ul>
-      <button className="block w-full rounded-[128px] bg-[#303B59] py-4 text-[18px] font-bold text-white">
+      <button
+        className="block w-full rounded-[128px] bg-[#303B59] py-[16px] text-[18px] font-bold text-white hover:bg-gradient-to-b hover:from-[#75F] hover:to-[#2F2CE9]
+      "
+      >
         Continue
       </button>
     </section>
