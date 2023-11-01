@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.tsx'],
   theme: {
     extend: {
+      padding: {
+        4.5: '1.125rem',
+        7.5: '1.875rem',
+      },
       lineHeight: {
         normal: 'normal',
       },

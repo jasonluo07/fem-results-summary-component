@@ -1,38 +1,72 @@
 function SummarySection() {
   return (
-    <section>
-      <h2>Summary</h2>
-      <ul>
-        <li>
-          <div>
+    <section className="px-7.5 pb-7.5 pt-6">
+      <h2 className="mb-6 text-[18px] font-bold leading-normal text-[#303B59] ml-0.5">Summary</h2>
+      <ul className="mb-6 space-y-4">
+        <li
+          className="flex justify-between rounded-xl px-4 py-4.5"
+          style={{
+            background: 'linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55',
+          }}
+        >
+          <div className="flex space-x-3">
             <img src="/src/assets/images/icon-reaction.svg" alt="Reaction" />
-            <h3>Reaction</h3>
+            <h3 className="text-[16px] font-medium leading-normal text-[#F55]">Reaction</h3>
           </div>
-          <p>80 / 100</p>
+          <div className="flex space-x-2"></div>
+          <p className="text-[16px] font-bold leading-normal text-[#303B59]">
+            80 <span className="opacity-50">/ 100</span>
+          </p>
         </li>
-        <li>
-          <div>
+        <li
+          className="flex justify-between rounded-xl px-4 py-4.5"
+          style={{
+            background: 'linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E',
+          }}
+        >
+          <div className="flex space-x-3">
             <img src="/src/assets/images/icon-memory.svg" alt="Memory" />
-            <h3>Memory</h3>
+            <h3 className="text-[16px] font-medium leading-normal text-[#FFB21E]">Memory</h3>
           </div>
-          <p>92 / 100</p>
+          <div className="flex space-x-2"></div>
+          <p className="text-[16px] font-bold leading-normal text-[#303B59]">
+            92 <span className="opacity-50">/ 100</span>
+          </p>
         </li>
-        <li>
-          <div>
+        <li
+          className="flex justify-between rounded-xl px-4 py-4.5"
+          style={{
+            background: 'linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F',
+          }}
+        >
+          <div className="flex space-x-3">
             <img src="/src/assets/images/icon-verbal.svg" alt="Verbal" />
-            <h3>Verbal</h3>
+            <h3 className="text-[16px] font-medium leading-normal text-[#00BB8F]">Verbal</h3>
           </div>
-          <p>61 / 100</p>
+          <div className="flex space-x-2"></div>
+          <p className="text-[16px] font-bold leading-normal text-[#303B59]">
+            61 <span className="opacity-50">/ 100</span>
+          </p>
         </li>
-        <li>
-          <div>
+        <li
+          className="flex justify-between rounded-xl px-4 py-4.5"
+          style={{
+            background: 'linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6',
+          }}
+        >
+          <div className="flex space-x-3">
             <img src="/src/assets/images/icon-visual.svg" alt="Visual" />
-            <h3>Visual</h3>
+            <h3 className="text-[16px] font-medium leading-normal text-[#1125D6]">Visual</h3>
           </div>
-          <p>73 / 100</p>
+          <div className="flex space-x-2"></div>
+          <p className="text-[16px] font-bold leading-normal text-[#303B59]">
+            73 <span className="opacity-50">/ 100</span>
+          </p>
         </li>
       </ul>
-      <button>Continue</button>
+      <button className="block w-full rounded-[128px] bg-[#303B59] py-4 text-[18px] font-bold leading-normal text-white">
+        Continue
+      </button>
     </section>
   );
 }
