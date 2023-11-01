@@ -1,7 +1,7 @@
 function SummarySection() {
   return (
     <section className="px-7.5 pb-7.5 pt-6">
-      <h2 className="mb-6 text-[18px] font-bold leading-normal text-[#303B59] ml-0.5">Summary</h2>
+      <h2 className="mb-6 ml-0.5 text-[18px] font-bold leading-normal text-[#303B59]">Summary</h2>
       <ul className="mb-6 space-y-4">
         <li
           className="flex justify-between rounded-xl px-4 py-4.5"
