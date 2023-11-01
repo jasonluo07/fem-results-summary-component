@@ -1,8 +1,12 @@
+import ResultSection from './components/ResultSection';
+import SummarySection from './components/SummarySection';
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="w-[375px]">
+      <ResultSection />
+      <SummarySection />
+    </div>
   );
 }
 
