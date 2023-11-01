@@ -3,7 +3,7 @@ import SummarySection from './SummarySection';
 
 function ResultsSummary() {
   return (
-    <div className="mobile:w-[375px] desktop:w-[736px] bg-white">
+    <div className="desktop:w-[736px] desktop:flex w-[375px] bg-white desktop:rounded-[32px]">
       <ResultSection />
       <SummarySection />
     </div>

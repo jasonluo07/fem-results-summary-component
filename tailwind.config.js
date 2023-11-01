@@ -6,6 +6,8 @@ export default {
       padding: {
         4.5: '1.125rem',
         7.5: '1.875rem',
+        9.5: '2.375rem',
+        11.5: '2.875rem',
       },
       lineHeight: {
         normal: 'normal',
