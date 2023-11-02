@@ -1,6 +1,12 @@
 import SummaryItem from './SummaryItem';
 import { ISummaryItem } from '@/types';
 
+import reactionIcon from '../../assets/images/icon-reaction.svg';
+import memoryIcon from '../../assets/images/icon-memory.svg';
+import verbalIcon from '../../assets/images/icon-verbal.svg';
+import visualIcon from '../../assets/images/icon-visual.svg';
+
+const ICONS = [reactionIcon, memoryIcon, verbalIcon, visualIcon];
 const COLORS = ['#F55', '#FFB21E', '#00BB8F', '#1125D6'];
 
 type SummarySectionProps = {
@@ -14,11 +20,11 @@ function SummarySection({ summaryData }: SummarySectionProps) {
       <ul className="mb-[24px] space-y-[16px]">
         {summaryData.map((item, index) => (
           <SummaryItem
+          title={item.category}
             key={item.category}
-            icon={item.icon.replace('./assets', '/src/assets')}
-            color={COLORS[index]}
-            title={item.category}
             score={item.score}
+            icon={ICONS[index]}
+            color={COLORS[index]}
           />
         ))}
       </ul>
