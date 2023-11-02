@@ -4,10 +4,14 @@
 
 這是 Frontend Mentor 上名為《[Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) 》的挑戰。藉由這個挑戰提供的 Figma 設計稿來練習切版、RWD 的能力。
 
-## 使用技術
+### 線上展示
+
+[請點擊](https://jasonluo07.github.io/results-summary-component/)
+
+### 使用技術
 
 - 進階：React、Tailwind CSS、TypeScript、Vite
-- 基礎：HTML、CSS、JavaScript
+- 基礎：HTML、CSS、JavaScript、RWD
 
 ## 專案預覽圖
 
@@ -28,3 +32,7 @@
 ### linear-gradient（線性漸層）
 
 `background-image: linear-gradient(to 目標方向, 起始顏色, 結束顏色);`
+
+### import 圖片
+
+本地端可以正常顯示，但是部署到 GitHub Pages 後會無法顯示圖片，原因是路徑不正確，正確應該使用 import 的方式來引入圖片。
