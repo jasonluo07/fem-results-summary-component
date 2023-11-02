@@ -6,6 +6,7 @@ type SummaryItemProps = {
 };
 
 function SummaryItem({ icon, color, title, score }: SummaryItemProps) {
+  console.log("🚀 ~ file: SummaryItem.tsx:9 ~ SummaryItem ~ icon:", icon)
   return (
     <li
       className="flex justify-between rounded-[12px] px-[16px] py-[18px]"
