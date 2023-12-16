@@ -2,7 +2,7 @@ import memoryIcon from '@/assets/images/icon-memory.svg';
 import reactionIcon from '@/assets/images/icon-reaction.svg';
 import verbalIcon from '@/assets/images/icon-verbal.svg';
 import visualIcon from '@/assets/images/icon-visual.svg';
-import { ISummaryItem } from '@/types';
+import type { ISummaryItem } from '@/types';
 
 import SummaryItem from './SummaryItem';
 

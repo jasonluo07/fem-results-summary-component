@@ -1,5 +1,5 @@
 import DATA from '@/assets/DATA.json';
-import { ISummaryItem } from '@/types';
+import type { ISummaryItem } from '@/types';
 import { useEffect, useState } from 'react';
 
 import ResultSection from './ResultSection';
