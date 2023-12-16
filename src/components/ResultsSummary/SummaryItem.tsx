@@ -16,7 +16,7 @@ const SummaryItem = ({ icon, color, title, score }: SummaryItemProps) => {
       <div className="flex space-x-[12px]">
         <img src={icon} alt={title} />
         <h3
-          className="text-[16px] font-medium desktop:text-[20px]"
+          className="text-[16px] font-medium lg:text-[20px]"
           style={{
             color,
           }}
@@ -24,7 +24,7 @@ const SummaryItem = ({ icon, color, title, score }: SummaryItemProps) => {
           {title}
         </h3>
       </div>
-      <p className="text-[16px] font-bold text-[#303B59] desktop:text-[18px]">
+      <p className="text-[16px] font-bold text-[#303B59] lg:text-[18px]">
         {score} <span className="opacity-50">/ 100</span>
       </p>
     </li>

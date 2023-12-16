@@ -17,7 +17,7 @@ const ResultsSummary = () => {
   }, []);
 
   return (
-    <div className="w-[375px] bg-white desktop:flex desktop:w-[736px] desktop:rounded-[32px]">
+    <div className="w-[375px] bg-white lg:flex lg:w-[736px] lg:rounded-[32px]">
       <ResultSection averageScore={averageScore} />
       <SummarySection summaryData={summaryData} />
     </div>

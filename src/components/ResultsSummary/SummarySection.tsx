@@ -15,8 +15,8 @@ type SummarySectionProps = {
 
 const SummarySection = ({ summaryData }: SummarySectionProps) => {
   return (
-    <section className="px-[30px] pb-[30px] pt-[24px] desktop:w-1/2 desktop:px-[40px] desktop:pb-[46px] desktop:pt-[38px]">
-      <h2 className="mb-[24px] text-[18px] font-bold text-[#303B59] desktop:mb-[28px] desktop:text-[24px]">Summary</h2>
+    <section className="px-[30px] pb-[30px] pt-[24px] lg:w-1/2 lg:px-[40px] lg:pb-[46px] lg:pt-[38px]">
+      <h2 className="mb-[24px] text-[18px] font-bold text-[#303B59] lg:mb-[28px] lg:text-[24px]">Summary</h2>
       <ul className="mb-[24px] space-y-[16px]">
         {summaryData.map((item, index) => (
           <SummaryItem
