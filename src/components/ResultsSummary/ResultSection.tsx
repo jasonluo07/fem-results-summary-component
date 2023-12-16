@@ -2,7 +2,7 @@ type ResultSectionProps = {
   averageScore: number | null;
 };
 
-function ResultSection({ averageScore }: ResultSectionProps) {
+const ResultSection = ({ averageScore }: ResultSectionProps) => {
   return (
     <section className="flex flex-col items-center rounded-b-[32px] bg-gradient-to-b from-[#75F] to-[#2F2CE9] pb-[40px] pt-[24px] shadow-[0_30px_60px_0px_rgba(61,108,236,0.15)] desktop:w-1/2 desktop:rounded-[32px]">
       <h1 className="mb-[24px] text-[18px] font-bold text-[#CAC9FF] desktop:mb-[36px] desktop:text-[24px]">
@@ -20,6 +20,6 @@ function ResultSection({ averageScore }: ResultSectionProps) {
       </div>
     </section>
   );
-}
+};
 
 export default ResultSection;

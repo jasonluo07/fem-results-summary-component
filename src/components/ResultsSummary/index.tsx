@@ -1,11 +1,11 @@
+import DATA from '@/assets/DATA.json';
+import { ISummaryItem } from '@/types';
 import { useEffect, useState } from 'react';
+
 import ResultSection from './ResultSection';
 import SummarySection from './SummarySection';
-import { ISummaryItem } from '@/types';
 
-import DATA from '../../assets/DATA.json';
-
-function ResultsSummary() {
+const ResultsSummary = () => {
   const [summaryData, setSummaryData] = useState<ISummaryItem[]>([]);
   const [averageScore, setAverageScore] = useState<number | null>(null);
 
@@ -22,6 +22,6 @@ function ResultsSummary() {
       <SummarySection summaryData={summaryData} />
     </div>
   );
-}
+};
 
 export default ResultsSummary;
