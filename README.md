@@ -2,11 +2,11 @@
 
 ## 介紹
 
-這是 Frontend Mentor 上名為《[Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) 》的挑戰。藉由這個挑戰提供的 Figma 設計稿來練習切版、RWD 的能力。
+這是 Frontend Mentor 上名為《[Results summary component](https://www.frontendmentor.io/challenges/fem-results-summary-component-CE_K6s0maV) 》的挑戰。藉由這個挑戰提供的 Figma 設計稿來練習切版、RWD 的能力。
 
 ### 線上展示
 
-[請點擊](https://jasonluo07.github.io/results-summary-component/)
+[請點擊](https://jasonluo07.github.io/fem-results-summary-component/)
 
 ### 使用技術
 
